@@ -1,2 +1,86 @@
 Este es un directorio que contiene 54 formas de onda de CCSNe del Catálogo de simulaciones numéricas
 en 2D de Harald Dimmelmeier
+
+This archive is a catalogue of the maximum density evolution
+of 54 supernova core collapse models as described in detail
+in this paper:
+
+1. Dimmelmeier, H., Ott, C.D., Marek, A., Janka, H.-T., and M\"uller, E.,
+   "General gravitational wave signals from the collapse of rotating stellar iron cores",
+   Phys. Rev. Lett., 98, 251101, (2007);
+   astro-ph/0702305.
+
+
+
+It contains the following files:
+
+signal_A1B0.05.dat     signal_A2B0.05.dat     signal_A3B0.05.dat
+signal_A1B0.07.dat     signal_A2B0.07.dat     signal_A3B0.07.dat
+signal_A1B0.10.dat     signal_A2B0.10.dat     signal_A3B0.10.dat
+signal_A1B0.15.dat     signal_A2B0.15.dat     signal_A3B0.15.dat
+signal_A1B0.25.dat     signal_A2B0.25.dat     signal_A3B0.25.dat
+signal_A1B0.35.dat     signal_A2B0.35.dat     signal_A3B0.35.dat
+signal_A1B0.50.dat     signal_A2B0.50.dat     signal_A3B0.50.dat
+signal_A1B0.70.dat     signal_A2B0.70.dat     signal_A3B0.70.dat
+signal_A1B0.90.dat     signal_A2B0.90.dat     signal_A3B0.90.dat
+signal_A1B1.10.dat     signal_A2B1.10.dat     signal_A3B1.10.dat
+signal_A1B1.30.dat     signal_A2B1.30.dat     signal_A3B1.30.dat
+signal_A1B1.60.dat     signal_A2B1.60.dat     signal_A3B1.60.dat
+signal_A1B1.80.dat     signal_A2B1.80.dat     signal_A3B1.80.dat
+signal_A1B2.00.dat     signal_A2B2.00.dat     signal_A3B2.00.dat
+signal_A1B2.50.dat     signal_A2B2.50.dat     signal_A3B2.50.dat
+signal_A1B3.00.dat     signal_A2B3.00.dat     signal_A3B3.00.dat
+signal_A1B3.50.dat     signal_A2B3.50.dat     signal_A3B3.50.dat
+signal_A1B4.00.dat     signal_A2B4.00.dat     signal_A3B4.00.dat
+
+
+
+
+
+The initial model is the presupernova stellar model s20 rotating
+at different rates with various profiles.
+
+Each collapse model is specified by two parameters, A and B:
+
+A1: A = 5.0 * 10^9 cm
+A2: A = 1.0 * 10^8 cm
+A3: A = 5.0 * 10^7 cm
+
+B0.05: beta_rot_ini = 0.05%
+B0.07: beta_rot_ini = 0.07%
+B0.10: beta_rot_ini = 0.10%
+B0.15: beta_rot_ini = 0.15%
+B0.25: beta_rot_ini = 0.25%
+B0.35: beta_rot_ini = 0.35%
+B0.50: beta_rot_ini = 0.50%
+B0.70: beta_rot_ini = 0.70%
+B0.90: beta_rot_ini = 0.90%
+B1.10: beta_rot_ini = 1.10%
+B1.30: beta_rot_ini = 1.30%
+B1.60: beta_rot_ini = 1.60%
+B1.80: beta_rot_ini = 1.80%
+B2.00: beta_rot_ini = 2.00%
+B2.50: beta_rot_ini = 2.50%
+B3.00: beta_rot_ini = 3.00%
+B3.50: beta_rot_ini = 3.50%
+B4.00: beta_rot_ini = 4.00%
+
+
+
+
+
+All signals have been obtained by using the quadrupole
+'first momentum of momentum density formula',
+
+Column 1 is the coordinate time 't' in units of milliseconds.
+Column 2 is the dimensionless signal amplitude 'h^TT' at a distance
+of 10 kpc with optimal orientation of the source (i.e. measured in
+the equatorial plane).
+
+
+
+This waveform catalogue can be obtained freely from this URL:
+http://www.mpa-garching.mpg.de/rel_hydro/
+
+-----------------------------------------------------------------
+22 December 2006, Harald Dimmelmeier (harrydee@mpa-garching.mpg.de).
